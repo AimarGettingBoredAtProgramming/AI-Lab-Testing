@@ -24,7 +24,6 @@ ROOT = HERE.parent                          # .../AI  (the course folder)
 DATA = ROOT / "all_datasets"
 RESULTS = ROOT / "results" / "lab01"
 RESULTS.mkdir(parents=True, exist_ok=True)
-
 pd.set_option("display.width", 200)
 pd.set_option("display.max_columns", 20)
 
